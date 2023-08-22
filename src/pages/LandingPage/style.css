@@ -1,0 +1,114 @@
+
+.headerLogo {
+    align-self: center;
+    width: 100px;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    margin: 3% 5% 2% 5%;
+    padding: 20px;
+}
+
+.navbarItems {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarItems ul {
+    width: 300px;
+    display: flex;
+    font-size: 1rem;
+    list-style-type: none;
+    justify-content: space-between;  
+}
+
+.socialMedia {
+    list-style-type: none;
+    width: 130px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.mainTxt {
+    position: relative;
+}
+
+h1 {
+    font-size: 5.5rem;
+    font-weight: 200;
+    font-family: 'Bodoni Moda', serif;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 6rem;
+    font-family: 'Alex Brush', cursive;
+    color: #FF5757;
+    position: absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    top: 84%;
+    left: 50%;
+}
+
+.footerPics {
+    margin: 5% 5%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+.landingImg {
+    position: relative;
+    width: 33%;
+
+}
+
+.landingImg > img {
+    width: 100%; 
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+
+    .mobileMenu {
+        display: block;
+        padding-left: 90%;
+    }
+
+    .socialMedia {
+        display: none;
+    }
+
+    .navbarItems {
+        display: none;
+    }
+    
+
+    h1,h2 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        top: 50%;
+    }
+
+    .footerPics {
+        flex-direction: column;
+    }
+    .landingImg {
+        width: 100%;
+    }
+
+}
+
