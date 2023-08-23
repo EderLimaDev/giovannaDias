@@ -6,14 +6,14 @@ function Footer() {
        <div >
 
             <div className="footerContainer">
-                <div>
-                    <SocialMedia />
+                <div className="footerItem">
+                    <SocialMedia classStyle={"socialMobile"}/>
                 </div>
-                <div>
+                <div className="footerItem">
                     <p>@Giovanna Dias 2023</p>
                 </div>
-                <div>
-                    <p>Made by Devs2front</p>
+                <div className="footerItem">
+                    <p className="devs">Made by Devs2front</p>
                 </div>
                     
             </div>

@@ -1,16 +1,36 @@
 .footerContainer {
-    height: 70px;
     display: flex;
-    position: relative;
-    top: 0;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.footerItem {
+    width: 33%;
+}
 
+.footerItem p {
+    color: #ccc;
+
+}
+
+.footerItem .devs {
+    text-align: end;
+}
 
 @media (max-width: 640px) {
     .footerContainer {
+        margin-top: 30%;
         flex-direction: column;
     }
+    .footerItem {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .footerItem .devs {
+        text-align: center;
     
+    }
+
 }

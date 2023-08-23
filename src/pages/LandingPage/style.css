@@ -1,18 +1,21 @@
 
 .headerLogo {
     align-self: center;
-    width: 100px;
+    width: 130px;
+}
+
+.headerLogo > div {
+    text-align: left;
 }
 
 .navbar {
     height: 70px;
     display: flex;
     margin: 3% 5% 2% 5%;
-    padding: 20px;
 }
 
 .navbarItems {
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,8 +28,11 @@
     list-style-type: none;
     justify-content: space-between;  
 }
-
-.socialMedia {
+.socialDiv {
+    width: 130px;
+    align-self: center;
+}
+.socialMedia, .socialMobile {
     list-style-type: none;
     width: 130px;
     align-items: center;
@@ -61,7 +67,7 @@ h2 {
 }
 
 .footerPics {
-    margin: 5% 5%;
+    margin: 6% 5%;
     display: flex;
     justify-content: space-between;
     float: left;
@@ -79,15 +85,39 @@ h2 {
     object-fit: cover;
 }
 
+@media (max-width: 710px) {
+    h2 {
+        top: 50%;
+    }
+}
+
+
+
 @media (max-width: 600px) {
 
+    .navbar {
+        position: relative;
+    }
+    .headerLogo {
+        position: absolute;
+        left: 0;
+    }
+
     .mobileMenu {
-        display: block;
-        padding-left: 90%;
+        display: flex;
+        align-self: center;
+        position: absolute;
+        right: 0;
     }
 
     .socialMedia {
         display: none;
+    }
+
+    .socialMobile {
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
     }
 
     .navbarItems {
@@ -112,3 +142,8 @@ h2 {
 
 }
 
+@media (min-width: 412px) {
+    h1 {
+        font-size: 4rem;
+    }
+}

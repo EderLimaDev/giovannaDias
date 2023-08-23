@@ -1,5 +1,10 @@
 .mainSection {
-    margin: 50% 5%;
+    margin: 5%;
+}
+
+.aboutMain {
+    position: relative;
+    font-size: 4rem;
 }
 
 .mainSection p {
@@ -14,5 +19,7 @@
     .mainSection p {
         font-size: 1.5rem;
     }
-    
+    .mainSection h1 {
+        font-size: 2.5rem;
+    }
 }

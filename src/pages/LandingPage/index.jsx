@@ -28,8 +28,8 @@ function Landing() {
                     </ul>
                 </div>
 
-                <div>
-                   <SocialMedia />
+                <div className="socialDiv">
+                   <SocialMedia classStyle={"socialMedia"} />
                 </div>
 
                 <div className="mobileMenu">
@@ -61,11 +61,12 @@ function Landing() {
                 <div className="landingImg">
                     <Category name="BATIZADOS"/>
                     <img className="imagensLand" src={imagem3}></img>
-                </div>    
-            </section>
-            <AboutSection />
-            <Footer />    
+                </div> 
 
+            </section>
+            
+            <AboutSection />   
+            <Footer />
 
         </div>
     );
