@@ -1,0 +1,22 @@
+.photoGrid {
+    width: 90%;
+    margin: 7% 5% 20% 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px 500px;
+    gap: 30px;
+    
+}
+
+.photoGrid > img {
+    aspect-ratio: 3/4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .photoGrid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,33 +1,4 @@
 
-.headerLogo {
-    align-self: center;
-    width: 130px;
-}
-
-.headerLogo > div {
-    text-align: left;
-}
-
-.navbar {
-    height: 70px;
-    display: flex;
-    margin: 3% 5% 2% 5%;
-}
-
-.navbarItems {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbarItems ul {
-    width: 300px;
-    display: flex;
-    font-size: 1rem;
-    list-style-type: none;
-    justify-content: space-between;  
-}
 .socialDiv {
     width: 130px;
     align-self: center;

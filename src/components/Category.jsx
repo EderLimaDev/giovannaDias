@@ -1,3 +1,4 @@
+
 import "./Category.css";
 import { useState } from "react";
 
@@ -17,10 +18,11 @@ function Category(Props) {
                     style={isMouseOver} 
                     onMouseEnter={() => setMouseOver(onColorBgChange)} 
                     onMouseLeave={() => setMouseOver(colorDefault)}>
-
                     <div className="categoryTitle">
                         <h1>{Props.name}</h1>
+                        
                     </div>
+              
                 </div>
     
             

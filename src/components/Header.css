@@ -1,0 +1,80 @@
+.headerLogo {
+    align-self: center;
+    width: 130px;
+}
+
+.headerLogo > div {
+    text-align: left;
+}
+
+/* dropDown BTN MENU */
+
+.dropDown {
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+.dropDown li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+}
+
+.dropDown li .links {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.dropDown li .links:hover {
+    background: #333;
+    color: #fff;
+    box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.dropDown li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    z-index: 3;
+}
+
+.dropDown li:hover ul {
+    display: block;
+
+}
+
+.dropDown li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 160px;
+}
+
+
+/* NAVBAR ITEMS */
+
+
+.navbar {
+    height: 70px;
+    display: flex;
+    margin: 3% 5% 2% 5%;
+}
+
+.navbarItems {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarItems ul {
+    width: 300px;
+    display: flex;
+    font-size: 1rem;
+    list-style-type: none;
+    justify-content: space-between;  
+}
