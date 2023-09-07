@@ -1,3 +1,7 @@
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {Link} from "react-router-dom";
+
 import '../photosPages.css';
 import Pic1 from '../../assets/batizados/batismo1.jpg';
 import Pic2 from '../../assets/batizados/batismo2.jpg';
@@ -20,6 +24,11 @@ function BaptismPics() {
                 <img src={Pic4} alt="" />
                 <img src={Pic5} alt="" />
                 <img src={Pic6} alt="" />
+            </div>
+
+            <div className='commandButtons'>
+                <Link className='btnLink' to="/married"><button className='btnLeft'><ArrowBackIcon fontSize='large' />Casamentos</button></Link> 
+                <Link className='btnLink' to="/birth"><button className='btnRight'>Aniversarios<ArrowForwardIcon fontSize='large' /></button></Link>
             </div>
 
         </div>

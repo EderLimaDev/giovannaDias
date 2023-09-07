@@ -11,35 +11,39 @@ function Landing() {
     return(
         <div>
 
-            <div className="mainTxt">
-                <h1>GIOVANNA DIAS</h1>
-                <h2>Fotografia</h2>
+            <div className="mainLandingSection">
+
+                <div className="mainTxt">
+                    <h1>GIOVANNA DIAS</h1>
+                    <h2>Fotografia</h2>
+                </div>
+                
+
+                <section className="footerPics">
+                    
+                    <div className="landingImg">
+                    <Link to="/married">
+                        <Category name="CASAMENTOS" />
+                    </Link>
+                        <img className="imagensLand" alt="modelo" src={imagem1} ></img> 
+                    </div>
+
+                    <div className="landingImg">    
+                            <Category 
+                            name="ANIVERSÁRIOS" /> 
+                        <img className="imagensLand" src={imagem2}></img>
+                    </div>
+
+                    <div className="landingImg">
+                        <Category name="BATIZADOS"/>
+                        <img className="imagensLand" src={imagem3}></img>
+                    </div> 
+
+                </section>
+                
             </div>
             
-
-            <section className="footerPics">
-                
-                <div className="landingImg">
-                   <Link to="/married">
-                    <Category name="CASAMENTOS" />
-                   </Link>
-                    <img className="imagensLand" alt="modelo" src={imagem1} ></img> 
-                </div>
-
-                <div className="landingImg">    
-                        <Category 
-                        name="ANIVERSÁRIOS" /> 
-                    <img className="imagensLand" src={imagem2}></img>
-                </div>
-
-                <div className="landingImg">
-                    <Category name="BATIZADOS"/>
-                    <img className="imagensLand" src={imagem3}></img>
-                </div> 
-
-            </section>
-            
-            <AboutSection />   
+            <AboutSection />
     
 
         </div>

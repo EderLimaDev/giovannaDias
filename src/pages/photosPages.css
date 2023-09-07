@@ -1,6 +1,5 @@
 .photoGrid {
-    width: 90%;
-    margin: 7% 5% 20% 5%;
+    margin: 7% 5% 7% 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 500px 500px;
@@ -14,6 +13,37 @@
     height: 100%;
     object-fit: cover;
 }
+
+.commandButtons {
+    margin: 0 5% 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* BOTOES DE COMANDO ENTRE AS PAGINAS */
+
+.btnLeft, .btnRight {
+    width: 200px;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.btnRight {
+    margin-right: 5%;
+    width: 240px;
+}
+
+.btnLink {
+    text-decoration: none;
+}
+
 
 @media (max-width: 600px) {
     .photoGrid {

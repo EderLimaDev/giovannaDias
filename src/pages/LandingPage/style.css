@@ -1,3 +1,7 @@
+.mainLandingSection{
+    display: flex;
+    flex-direction: column;
+}
 
 .socialDiv {
     width: 130px;
@@ -42,12 +46,23 @@ h2 {
     display: flex;
     justify-content: space-between;
     float: left;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.footerPics:hover  .landingImg{
+    filter: blur(2px);
 }
 
 .landingImg {
     position: relative;
-    width: 33%;
+    flex:1;
 
+}
+
+.landingImg:hover {
+    filter: blur(0px) !important;
+    transform: scale(1.05) !important;
 }
 
 .landingImg > img {
@@ -55,6 +70,11 @@ h2 {
     aspect-ratio: 3 / 4;
     object-fit: cover;
 }
+
+
+
+
+
 
 @media (max-width: 710px) {
     h2 {
