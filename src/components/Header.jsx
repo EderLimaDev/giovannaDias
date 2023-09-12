@@ -1,4 +1,5 @@
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
 import SocialMedia from "./SocialMedia";
 import { Link } from 'react-router-dom';
 import "./Header.css";
@@ -12,7 +13,7 @@ function Header() {
         <section className="navbar"> 
 
                 <div className="headerLogo">
-                    <div><Link to="/">HOME</Link></div>
+                    <div><Link className='homeLink' to="/"><HomeIcon /> HOME</Link></div>
                 </div>
 
                 <nav className="navbarItems">
@@ -26,8 +27,8 @@ function Header() {
                                 </ul>
                         </li>
 
-                        <li><Link className='links' to="#">SOBRE</Link></li>
-                        <li><Link className='links' to="#">CONTATO</Link></li>
+                        <li><Link className='links' to="/about">SOBRE</Link></li>
+                        <li><Link className='links' to="/contact">CONTATO</Link></li>
                     </ul>
                 </nav>
 

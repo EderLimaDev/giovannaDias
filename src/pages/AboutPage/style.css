@@ -1,0 +1,66 @@
+
+.mainSectionAboutPage {
+    margin: 5% 5%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    
+}
+
+.aboutPicture {
+    position: relative;
+}
+
+.aboutPicture > img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+}
+
+.aboutText {
+    padding: 30px;
+    text-align: left;
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+}
+
+.aboutText > p {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: left;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+.aboutText > button {
+    justify-self: center;
+}
+
+@media (max-width: 950px) {
+    .mainSectionAboutPage {
+        grid-template-columns: 1fr;
+    }
+
+    .aboutPicture {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .aboutText, .aboutText > p{
+        text-align: center;
+    }
+
+    .aboutText h1 {
+        font-size: 1.5rem;
+    }
+
+    .aboutText > p {
+        font-size: 1rem;
+    }
+
+    .aboutText > button {
+        margin-top: 10%;
+    }
+
+}

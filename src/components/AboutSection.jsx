@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import "./AboutSection.css"
-import Button from '@mui/material/Button';
+import ButtonStyled from "./Button";
 
 
 function AboutSection() {
@@ -12,12 +13,10 @@ function AboutSection() {
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
                </div>
                 
-                <Button style={{color: "#ff5757", border: "1px solid #ff5757"}}
-                    variant="outlined" 
-                    size="large"
-                    >
-                    Entre em Contato
-                </Button>
+                <Link to="/contact">
+                   <ButtonStyled  /> 
+                </Link>
+                
         
             </section>
 

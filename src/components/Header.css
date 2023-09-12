@@ -1,10 +1,22 @@
 .headerLogo {
     align-self: center;
     width: 130px;
+    display: flex;
+   justify-content: start;
+}
+
+.homeLink {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .headerLogo > div {
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

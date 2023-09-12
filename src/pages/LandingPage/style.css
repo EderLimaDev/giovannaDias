@@ -57,12 +57,14 @@ h2 {
 .landingImg {
     position: relative;
     flex:1;
+    transition: 500ms;
 
 }
 
 .landingImg:hover {
     filter: blur(0px) !important;
     transform: scale(1.05) !important;
+    transition: 500ms;
 }
 
 .landingImg > img {

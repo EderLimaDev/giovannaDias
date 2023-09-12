@@ -24,7 +24,7 @@
 /* BOTOES DE COMANDO ENTRE AS PAGINAS */
 
 .btnLeft, .btnRight {
-    width: 200px;
+    width: 240px;
     justify-content: space-between;
     background: none;
     border: none;
@@ -48,5 +48,14 @@
 @media (max-width: 600px) {
     .photoGrid {
         grid-template-columns: 1fr;
+    }
+    .btnLeft, .btnRight {
+        width: 20px;
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+    .commandButtons {
+        margin: 0;
+        justify-content: space-around;
     }
 }

@@ -22,20 +22,24 @@ function Landing() {
                 <section className="footerPics">
                     
                     <div className="landingImg">
-                    <Link to="/married">
-                        <Category name="CASAMENTOS" />
-                    </Link>
+                        <Link to="/married">
+                            <Category name="CASAMENTOS" />
+                        </Link>
                         <img className="imagensLand" alt="modelo" src={imagem1} ></img> 
                     </div>
 
-                    <div className="landingImg">    
-                            <Category 
-                            name="ANIVERSÁRIOS" /> 
+                    <div className="landingImg">
+                        <Link to="/birth">
+                           <Category name="ANIVERSÁRIOS" />  
+                        </Link>    
                         <img className="imagensLand" src={imagem2}></img>
                     </div>
 
                     <div className="landingImg">
-                        <Category name="BATIZADOS"/>
+                        <Link to="/baptism">
+                           <Category name="BATIZADOS"/> 
+                        </Link>
+                        
                         <img className="imagensLand" src={imagem3}></img>
                     </div> 
 
