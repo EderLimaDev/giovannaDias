@@ -8,7 +8,7 @@ import BaptismPics from './pages/BatizadoPage'
 import NiverPics from './pages/NiverPage'
 import About from './pages/AboutPage'
 import Contact from './pages/Contact.jsx'
-import Navbar from './components/navbarMobile/navbar'
+import Navbar from './components/navbarMobile/Navbar';
 
 function App() {
 
