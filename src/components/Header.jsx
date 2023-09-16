@@ -1,16 +1,17 @@
-import MenuIcon from '@mui/icons-material/Menu';
+
 import HomeIcon from '@mui/icons-material/Home';
 import SocialMedia from "./SocialMedia";
 import { Link } from 'react-router-dom';
 import "./Header.css";
 
-function Header() {
 
+function Header() {
 
 
     return(
 
         <section className="navbar"> 
+
 
                 <div className="headerLogo">
                     <div><Link className='homeLink' to="/"><HomeIcon /> HOME</Link></div>
@@ -36,10 +37,7 @@ function Header() {
                    <SocialMedia classStyle={"socialMedia"} />
                 </div>
 
-                <div className="mobileMenu">
-                    <MenuIcon />
-                </div>
-
+              
         </section>
 
     )

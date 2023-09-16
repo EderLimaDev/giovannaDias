@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: 30% 70%;
 
-    
 }
 
 .aboutPicture {
@@ -23,6 +22,7 @@
     grid-template-rows: 20% 70% 10%;
 }
 
+
 .aboutText > p {
     font-size: 2rem;
     line-height: 1.5;
@@ -31,9 +31,6 @@
     padding: 20px;
 }
 
-.aboutText > button {
-    justify-self: center;
-}
 
 @media (max-width: 950px) {
     .mainSectionAboutPage {
@@ -52,15 +49,18 @@
     }
 
     .aboutText h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .aboutText > p {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin: 0 0 40% 0;
+        padding: 0;
+        text-align: justify;
     }
 
     .aboutText > button {
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
 }

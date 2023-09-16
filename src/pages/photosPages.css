@@ -16,8 +16,9 @@
 
 .commandButtons {
     margin: 0 5% 7%;
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    border: 1px solid red;
 }
 
 
@@ -25,7 +26,7 @@
 
 .btnLeft, .btnRight {
     width: 240px;
-    justify-content: space-between;
+    position: absolute;
     background: none;
     border: none;
     letter-spacing: 3px;
@@ -35,9 +36,11 @@
     align-items: center;
 }
 
-.btnRight {
-    margin-right: 5%;
-    width: 240px;
+.btnLeft {
+    left: 0;
+}
+.btnRight { 
+    right: 0;
 }
 
 .btnLink {
@@ -54,8 +57,16 @@
         letter-spacing: 0;
         font-size: 1rem;
     }
+
+    .btnLeft {
+        left: 40px;
+    }
+    .btnRight {
+        right: 40px;
+    }
+
     .commandButtons {
-        margin: 0;
-        justify-content: space-around;
+        margin: 5%;
+        border: 1px solid red;
     }
 }

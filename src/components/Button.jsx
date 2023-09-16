@@ -21,9 +21,9 @@ export default function ButtonStyled(){
             onMouseLeave={onMouseOut} 
             style={ hover 
             ? 
-            {color: "#ffff", border: "1px solid #ff5757", padding: "25px", margin: "0 10%", fontSize:"1.5rem", background:"#ff5757"}
+            {color: "#ffff", border: "1px solid #ff5757", padding: "10px", margin: "0 10%", fontSize:"1rem", background:"#ff5757"}
             : 
-            {color: "#ff5757", border: "1px solid #ff5757", padding: "25px", margin: "0 10%", fontSize:"1.5rem"}}
+            {color: "#ff5757", border: "1px solid #ff5757", padding: "10px", margin: "0 10%", fontSize:"1rem"}}
                 
                 
                 variant="outlined" 

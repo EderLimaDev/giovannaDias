@@ -15,9 +15,6 @@
     justify-content: space-between;
 }
 
-.mobileMenu {
-    display: none;
-}
 
 .mainTxt {
     position: relative;
@@ -25,12 +22,14 @@
 
 h1 {
     font-size: 5.5rem;
+    user-select: none;
     font-weight: 200;
     font-family: 'Bodoni Moda', serif;
 }
 
 h2 {
     font-weight: 100;
+    user-select: none;
     font-size: 6rem;
     font-family: 'Alex Brush', cursive;
     color: #FF5757;
@@ -94,13 +93,6 @@ h2 {
     .headerLogo {
         position: absolute;
         left: 0;
-    }
-
-    .mobileMenu {
-        display: flex;
-        align-self: center;
-        position: absolute;
-        right: 0;
     }
 
     .socialMedia {
