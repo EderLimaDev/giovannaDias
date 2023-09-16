@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import aboutImg from "../../assets/about/aboutimg.png";
+import aboutImg from "../../assets/about/aboutImg.png";
 import ButtonStyled from "../../components/Button";
 import './style.css';
 
