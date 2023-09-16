@@ -2,7 +2,7 @@
 .navbarItemsMobile {
     width: 270px;
     left: -270px;
-    height: 100%;
+    height: 100vh;
     padding: 20px;
     position: fixed;
     top: 0;
@@ -15,13 +15,12 @@
 
 .navbarItemsMobile .closeNavIcon {
     position: absolute;
-
     top: 5px;
     right: 5px;
 }
 
 .sidebarLogo {
-    margin: 5% 10%;
+    margin: 8% 10%;
     height: 150px;
     font-size: 1.5em;
 }
