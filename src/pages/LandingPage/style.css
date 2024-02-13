@@ -13,31 +13,21 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 
-.mainTxt {
-    position: relative;
+.mainBanner {
+    margin: 0 5%;
 }
 
-h1 {
-    font-size: 5.5rem;
-    user-select: none;
-    font-weight: 200;
-    font-family: 'Bodoni Moda', serif;
+.mainBanner img {
+    width: 70%;
+    object-fit: cover;
 }
 
-h2 {
-    font-weight: 100;
-    user-select: none;
-    font-size: 6rem;
-    font-family: 'Alex Brush', cursive;
-    color: #FF5757;
-    position: absolute;
-    background: none;
-    transform: translate(-50%, -50%);
-    top: 84%;
-    left: 50%;
+.mainBanner .banner-mobile {
+    display: none;
 }
 
 .footerPics {
@@ -72,19 +62,6 @@ h2 {
     object-fit: cover;
 }
 
-
-
-
-
-
-@media (max-width: 710px) {
-    h2 {
-        top: 50%;
-    }
-}
-
-
-
 @media (max-width: 600px) {
 
     .navbar {
@@ -109,15 +86,6 @@ h2 {
         display: none;
     }
     
-
-    h1,h2 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        top: 50%;
-    }
-
     .footerPics {
         flex-direction: column;
     }
@@ -127,8 +95,12 @@ h2 {
 
 }
 
-@media (min-width: 412px) {
-    h1 {
-        font-size: 4rem;
+@media (max-width: 450px) {
+    .mainBanner .banner-mobile {
+        display: inline;
+    }
+
+    .mainBanner .banner-desktop {
+        display: none;
     }
 }

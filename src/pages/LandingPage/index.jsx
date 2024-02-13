@@ -1,7 +1,9 @@
 import "./style.css";
-import imagem1 from "../../assets/imagem1.jpg"
-import imagem2 from "../../assets/imagem2.jpg"
-import imagem3 from "../../assets/imagem3.jpg"
+import imagem1 from "../../assets/home/imagem1.jpg"
+import imagem2 from "../../assets/home/imagem2.jpg"
+import imagem3 from "../../assets/home/imagem3.jpg"
+import bannerDesktop from '../../assets/home/banner-desktop.png';
+import bannerMobile from '../../assets/home/banner-mobile.png'
 import Category from "../../components/Category";
 import AboutSection from '../../components/AboutSection'
 import {Link} from "react-router-dom";
@@ -13,9 +15,9 @@ function Landing() {
 
             <div className="mainLandingSection">
 
-                <div className="mainTxt">
-                    <h1>GIOVANNA DIAS</h1>
-                    <h2>Fotografia</h2>
+                <div className="mainBanner">
+                    <img className="banner-desktop" src={bannerDesktop} alt="Nome Giovanna Dias Fotografia" />
+                    <img className="banner-mobile" src={bannerMobile} alt="Nome Giovanna Dias Fotografia" />
                 </div>
                 
 
