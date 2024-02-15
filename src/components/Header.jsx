@@ -14,7 +14,7 @@ function Header() {
 
 
                 <div className="headerLogo">
-                    <div><Link className='homeLink' to="/"><HomeIcon /> HOME</Link></div>
+                    <div><Link className='homeLink' to="/"><HomeIcon /></Link></div>
                 </div>
 
                 <nav className="navbarItems">

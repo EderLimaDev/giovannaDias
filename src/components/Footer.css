@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 0;
     
 }
 
@@ -20,13 +22,17 @@
 
 @media (max-width: 640px) {
     .footerContainer {
-        margin-top: 30%;
         flex-direction: column;
     }
     .footerItem {
         width: 100%;
         padding: 10px;
+
     }
+    .footerItem .socialMobile {
+        width: 100%;
+        justify-content: space-evenly;
+    }   
 
     .footerItem .devs {
         text-align: center;

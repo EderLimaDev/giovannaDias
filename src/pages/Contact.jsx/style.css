@@ -26,10 +26,17 @@
 }
 
 @media (max-width:600px) {
+
+    .mainSectionContactPage {
+        height: 100%;
+    }
+
     .mainSectionContactPage img {
         width: 100%;
+        margin: 10% 0;
     }
     .contactsItems {
+        
         flex-direction: column;
         justify-content: center;
         align-items: center;

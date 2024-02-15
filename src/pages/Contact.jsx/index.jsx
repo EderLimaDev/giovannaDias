@@ -11,7 +11,6 @@ export default function Contact() {
     return(
         <div>
             
-
             <div className="mainSectionContactPage">
 
                 <hr />

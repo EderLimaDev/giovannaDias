@@ -41,7 +41,7 @@ const Navbar = () => {
           <ul className='mobileSidebar'>
               <Link className="linksMobile" to="/">
                 <li>
-                <HomeIcon />
+                  <HomeIcon  />
                   HOME
                 </li>
               </Link>

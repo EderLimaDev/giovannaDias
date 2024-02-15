@@ -9,13 +9,15 @@ function Footer() {
                 <div className="footerItem">
                     <SocialMedia classStyle={"socialMobile"}/>
                 </div>
+                
                 <div className="footerItem">
                     <p>@Giovanna Dias 2023</p>
                 </div>
+                
                 <div className="footerItem">
                     <p className="devs">Made by Devs2front</p>
                 </div>
-                    
+                  
             </div>
          
        </div>

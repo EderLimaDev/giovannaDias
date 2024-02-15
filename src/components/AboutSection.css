@@ -25,6 +25,7 @@
 @media (max-width: 640px) {
     .mainSection p {
         font-size: 1.5rem;
+        line-height: 30px;
     }
     .mainSection h1 {
         font-size: 2.5rem;
