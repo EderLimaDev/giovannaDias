@@ -37,7 +37,7 @@ const ImageLoader = ({ imagePaths }) => {
 
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className='loading-card'><div className='loader'></div></div>;
   }
 
   if (error) {
