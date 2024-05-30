@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { getDownloadURL, ref } from 'firebase/storage';
-import { storage } from '../firebase.js';
+import { storage } from "../firebase";
 
 const ImageLoader = ({ imagePaths }) => {
   const [imageUrls, setImageUrls] = useState([]);
