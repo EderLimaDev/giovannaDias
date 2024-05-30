@@ -42,6 +42,8 @@
     text-decoration: none;
     padding: 5px 10px;
     display: block;
+    text-align: start;
+    
 }
 
 .dropDown li .links::after {
@@ -82,7 +84,7 @@
 .dropDown li ul li {
     border: 1px solid #858585;
     display: block;
-    width: 160px;
+    width: 190px;
 }
 
 

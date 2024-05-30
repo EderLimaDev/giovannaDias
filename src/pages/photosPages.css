@@ -1,18 +1,41 @@
-.photoGrid {
-    margin: 7% 5% 7% 5%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 500px 500px;
-    gap: 30px;
-    
+
+h1 {
+  font-size: 2.5rem;
 }
 
-.photoGrid > img {
-    aspect-ratio: 3/4;
+.photoGrid {
+    margin: 4% 5% 7% 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .photoGrid-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .photoGrid-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+    display: block;
+  }
+  
+  /* Responsividade do grid de fotos */
+  @media (min-width: 600px) {
+    .gallery {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .gallery {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+
 
 .commandButtons {
     margin: 0 5% 7%;
@@ -30,7 +53,7 @@
     border: none;
     letter-spacing: 3px;
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
 }

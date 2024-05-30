@@ -54,9 +54,9 @@ const Navbar = () => {
                 </li>       
               </Link>
               <ul className={openItemSidebar ? "subMenu openItems" : "subMenu"}>
-                <li><Link className="linksMobile" to="/married">CASAMENTOS</Link></li>       
+                <li><Link className="linksMobile" to="/pregnant">GESTANTES</Link></li>       
                 <li><Link className="linksMobile" to="/birth">ANIVERSARIOS</Link></li> 
-                <li><Link className="linksMobile" to="/baptism">BATIZADOS</Link></li>
+                <li><Link className="linksMobile" to="/newborn">ACOMPANHAMENTOS</Link></li>
               </ul> 
 
             <Link className='linksMobile' to="/contact">            

@@ -22,9 +22,9 @@ function Header() {
                         <li> 
                             <Link className="links" to="#">TRABALHOS</Link>
                                 <ul>
-                                    <li><Link className="links" to="/married">CASAMENTOS</Link></li>       
+                                    <li><Link className="links" to="/pregnant">GESTANTES</Link></li>       
                                     <li><Link className="links" to="/birth">ANIVERSARIOS</Link></li>  
-                                    <li><Link className="links" to="/baptism">BATIZADOS</Link></li> 
+                                    <li><Link className="links" to="/newborn">ACOMPANHAMENTOS</Link></li> 
                                 </ul>
                         </li>
 
