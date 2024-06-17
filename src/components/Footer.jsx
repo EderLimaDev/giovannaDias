@@ -1,21 +1,16 @@
-import SocialMedia from "./SocialMedia";
+// import SocialMedia from "./SocialMedia";
 import "./Footer.css";
 
 function Footer() {
     return(
        <div >
-
             <div className="footerContainer">
-                <div className="footerItem">
+                {/* <div className="footerItem">
                     <SocialMedia classStyle={"socialMobile"}/>
-                </div>
+                </div> */}
                 
                 <div className="footerItem">
-                    <p>@Giovanna Dias 2023</p>
-                </div>
-                
-                <div className="footerItem">
-                    <p className="devs">Made by Devs2front</p>
+                    <p>@Giovanna Dias 2024 - by Eder Lima</p>
                 </div>
                   
             </div>

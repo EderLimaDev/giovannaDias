@@ -1,4 +1,4 @@
-import profileImg from '../../assets/about/aboutImg.png';
+import profileImg from '../../assets/about/profileImg.png';
 import { Link } from "react-router-dom";
 import {useState} from 'react';
 import "./styles.css";

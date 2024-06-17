@@ -28,9 +28,10 @@
   margin-bottom: 5%;
   width: 100px;
   height: 100px;
-  object-position: top;
+  object-position: center;
   object-fit: cover;
   border-radius: 50%;
+  
 }
 
 .active {

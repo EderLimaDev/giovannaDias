@@ -3,7 +3,6 @@
     margin: 5% 5%;
     display: grid;
     grid-template-columns: 30% 70%;
-
 }
 
 .aboutPicture {
@@ -12,13 +11,14 @@
 
 .aboutPicture > img {
     width: 100%;
+    object-fit: cover;
     aspect-ratio: 3 / 4;
 }
 
 .aboutText {
-    padding: 30px;
+    padding: 20px;
     display: grid;
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-rows: 40px 1fr 50px;
 }
 
 .aboutText h1 {
@@ -26,13 +26,15 @@
 }
 
 .aboutText > p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.5;
-    text-align: center;
+    text-align: justify;
     margin: 20px 0;
     padding: 20px;
 }
-
+.aboutText p span {
+    color: #ccc;
+}
 
 @media (max-width: 950px) {
     .mainSectionAboutPage {

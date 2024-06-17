@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 100%;
     bottom: 0;
     
 }
@@ -16,9 +17,6 @@
 
 }
 
-.footerItem .devs {
-    text-align: end;
-}
 
 @media (max-width: 640px) {
     .footerContainer {
@@ -29,14 +27,11 @@
         padding: 10px;
 
     }
-    .footerItem .socialMobile {
+    /* .footerItem .socialMobile {
         width: 100%;
         justify-content: space-evenly;
-    }   
+    }    */
 
-    .footerItem .devs {
-        text-align: center;
-    
-    }
+
 
 }

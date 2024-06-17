@@ -40,7 +40,7 @@
 }
 
 .footerPics:hover  .landingImg{
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
 .landingImg {

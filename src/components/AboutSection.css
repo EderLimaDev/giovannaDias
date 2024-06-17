@@ -15,7 +15,7 @@
 
 .mainSection p {
     font-size: 45px;
-    text-align: center;
+    text-align: justify;
     line-height: 63px;
     margin-bottom: 50px;
 }
@@ -26,6 +26,7 @@
     .mainSection p {
         font-size: 1.5rem;
         line-height: 30px;
+        text-align: center;
     }
     .mainSection h1 {
         font-size: 2.5rem;

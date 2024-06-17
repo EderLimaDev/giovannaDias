@@ -9,8 +9,11 @@ function AboutSection() {
             <section className="mainSection">
                
                <div className="aboutMain">
-                    <h1>Sobre</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    <h1>Sobre meu trabalho</h1>
+                    <p>Focada em Acompanhamentos de Bebês, Eventos, Ensaios de Gestantes e demais,
+                    crio recordações através de fotos que contam suas histórias!<br></br>
+                    <br></br>
+                    É uma honra ter você aqui!</p>
                </div>
                 
                 <Link to="/contact">

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import aboutImg from "../../assets/about/aboutImg.png";
+import aboutImg from "../../assets/about/aboutImg.jpg";
 import ButtonStyled from "../../components/Button";
 import "./style.css";
 
@@ -13,10 +13,11 @@ export default function About() {
         <div className="aboutText">
           <h1>Sobre mim</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Quem sou eu?<br></br>
+            Sou Giovana Dias formada em fotografia digital, 
+            Mãe de dois filhos lindos e através disso despertou ainda mais 
+            a paixão por registrar momentos especiais.<br></br>
+            <span>"Não é só um clique e sim recordações que ficarão sempre gravadas!"</span>
           </p>
 
           <Link className="btnContact" to="/contact">

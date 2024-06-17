@@ -7,9 +7,9 @@ function SocialMedia(Props) {
     return(
         <div>
             <ul className={Props.classStyle}>
-                <li><FacebookIcon /></li>
-                <li><WhatsAppIcon /></li>
-                <li><InstagramIcon  /></li>
+                <li><a href="https://www.facebook.com/giovana.dias.545?mibextid=ZbWKwL" target='blank_' rel="noopener noreferrer"><FacebookIcon /></a></li>
+                <li><a href="https://web.whatsapp.com/send?phone=5515996099223" target="_blank" rel="noopener noreferrer"><WhatsAppIcon /></a></li>
+                <li><a href="https://www.instagram.com/giovana_souza024?igsh=eTQ0N2J1cG83Yzhs" target="_blank" rel="noopener noreferrer"><InstagramIcon  /></a></li>
             </ul>  
         </div>
     )
