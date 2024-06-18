@@ -9,13 +9,13 @@
 
 .aboutMain h1 {
     display: block;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 50px;
 }
 
 .mainSection p {
-    font-size: 45px;
-    text-align: justify;
+    font-size:1.8rem;
+    text-align: center;
     line-height: 63px;
     margin-bottom: 50px;
 }

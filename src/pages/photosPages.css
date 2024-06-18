@@ -41,6 +41,7 @@ h1 {
     margin: 0 5% 7%;
     position: relative;
     display: flex;
+    padding-bottom: 50px;
 }
 
 /*Card Loader*/
@@ -70,13 +71,12 @@ h1 {
 /* BOTOES DE COMANDO ENTRE AS PAGINAS */
 
 .btnLeft, .btnRight {
-    width: 240px;
     position: absolute;
     background: none;
     border: none;
     letter-spacing: 3px;
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
 }
@@ -98,19 +98,12 @@ h1 {
         grid-template-columns: 1fr;
     }
     .btnLeft, .btnRight {
-        width: 20px;
         letter-spacing: 0;
         font-size: 1rem;
     }
 
-    .btnLeft {
-        left: 40px;
-    }
-    .btnRight {
-        right: 40px;
-    }
-
     .commandButtons {
         margin: 5%;
+      
     }
 }

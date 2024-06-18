@@ -13,7 +13,7 @@ export default function About() {
         <div className="aboutText">
           <h1>Sobre mim</h1>
           <p>
-            Quem sou eu?<br></br>
+           <em>Quem sou eu?</em> 
             Sou Giovana Dias formada em fotografia digital, 
             Mãe de dois filhos lindos e através disso despertou ainda mais 
             a paixão por registrar momentos especiais.<br></br>

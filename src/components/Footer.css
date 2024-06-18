@@ -17,6 +17,10 @@
 
 }
 
+.socialMobile {
+    display: none;
+}
+
 
 @media (max-width: 640px) {
     .footerContainer {
@@ -27,11 +31,16 @@
         padding: 10px;
 
     }
-    /* .footerItem .socialMobile {
+    .footerItem .socialMobile {
         width: 100%;
         justify-content: space-evenly;
-    }    */
+    }   
 
-
+    .socialMobile {
+        padding: 60px 0;
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
 
 }
