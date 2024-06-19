@@ -22,7 +22,7 @@ export default function Contact() {
 
                 <div className="contactsItems">
                     <p><a href="tel:+5515996099223"><CallIcon /> &nbsp; +55 (15) 99609-9223</a></p>  
-                    <p><a href="mailto:giovannassdias@gmail.com"><EmailIcon /> &nbsp; giovannassdias@gmail.com</a></p>
+                    <p><a href="mailto:giovanadiasssouza@outlook.com"><EmailIcon /> &nbsp; giovanadiasssouza@outlook.com</a></p>
                 </div>
 
             </div>
