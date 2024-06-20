@@ -15,8 +15,8 @@ function Category(Props) {
         
                 <div 
                     className="categoryTitleBorder" 
-                    style={isMouseOver} 
-                    onMouseEnter={() => {if(screenX < 600) {setMouseOver(onColorBgChange)} }}  
+                    style={isMouseOver}
+                    onMouseEnter={() => setMouseOver(onColorBgChange)}  
                     onMouseLeave={() => setMouseOver(colorDefault)}>
                     <div className="categoryTitle">
                         <h1>{Props.name}</h1>
